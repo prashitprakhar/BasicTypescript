@@ -1,3 +1,3 @@
-settinng.json
+setting.json
 launch.json
 tasks.json
