@@ -18,10 +18,18 @@ var addMoreInfo = [
     { name: "Rahul", location: "Hyderabad", citizen: generalInfo.India }
 ];
 addMoreInfo.push(peopleInfo);
-for (var index = 0; index < addMoreInfo.length; index++) {
-    var element = addMoreInfo[index];
+/*
+for (let index = 0; index < addMoreInfo.length; index++) {
+    const element = addMoreInfo[index];
     console.log(element);
+    
+}; */
+function peopleInformation(info) {
+    info.forEach(function (element) {
+        console.log("Name is" + element.name + " Age is : " + element.age);
+    });
 }
 ;
+peopleInformation(peopleInfo);
 //console.log(peopleInfo);
 //# sourceMappingURL=arrayEnums.js.map

@@ -21,12 +21,21 @@ let addMoreInfo = [
 
 addMoreInfo.push(peopleInfo);
 
+/*
 for (let index = 0; index < addMoreInfo.length; index++) {
     const element = addMoreInfo[index];
     console.log(element);
     
+}; */
+
+function peopleInformation(info: any[]){   
+    info.forEach(element => {
+        console.log("Name is"+element.name+" Age is : "+element.age);
+    
+    });
 };
 
+peopleInformation(peopleInfo);
 
 
 //console.log(peopleInfo);
